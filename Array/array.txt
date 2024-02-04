@@ -1,0 +1,22 @@
+- Array is basically a collection of elements.
+- In Python, array is represented as list.
+- In python, list is implemented as dynamic array, which means we didn't need to specify the size of array it be decided by compiler.
+
+# Time complexity for accessing a single element using index from a list is O(1) 
+
+# Time complexity for accessing the value from the value stored in list is O(n)
+Example : for i in range(len(n)):
+             if n[i] == 321:
+                  return i
+Here it will run n times so time complexity is O(n) 
+
+# Accessing all element, in this case also time complexity will be O(n)
+
+# Adding value at specified index, time complexity will O(n), because all the value can be changed.
+
+# for deleting element from specified index, the time complexity will be O(n).
+
+Initialization of array :  arr = [1,2,4,5,6]
+Declaration : arr=[]
+
+Note : In python list can store categorical and numerical data in a single list. But in other programming language it can't be done as they store a similar type of data.
