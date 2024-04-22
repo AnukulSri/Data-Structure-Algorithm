@@ -5,7 +5,7 @@
 def bubble_sort(arr,l):
     for i in range(l):
         for j in range(l-1-i):
-            if arr[j] > arr[j+1]:
+            if arr[j] < arr[j+1]:
                 temp = arr[j+1]
                 arr[j+1] = arr[j]
                 arr[j] = temp
